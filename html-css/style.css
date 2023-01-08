@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
-
 /*
 ---- COLOR PALETTE ----
 
@@ -48,16 +47,32 @@ h4 {
   font-size: 1.5em;
   letter-spacing: 0.4px;
   line-height:1em;
+  margin-bottom: 15px;
 }
 
 h5 {
   font-size: 1.2em;
   line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .dark-background {
   background-color: rgb(25,33,41);
   color: white;
+}
+.nav-bar {
+  padding: 14px 0;
+}
+
+.nav-bar-ul {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
 }
 
 .nav-bar a {
@@ -65,13 +80,16 @@ h5 {
   text-decoration: none;
   font-size: 2em;
 }
+
 .banner {
   background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
+  padding-top: 50px;
 }
+
 .banner h2 {
   color: white;
   text-shadow: #020819 8px -20px 9px;
@@ -85,12 +103,23 @@ h5 {
 #general-information {
   background-color: rgb(25,33,41);
   color: white;
+  padding: 75px 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container h3 {
+  margin: 0;
 }
 
 .text {
   font-size: 2em;
-  fotnt-weight: 100;
+  font-weight: 100;
   text-align: center;
+  margin: 20px 0;
 }
 
 .link-btn {
@@ -106,16 +135,30 @@ h5 {
 .service-box {
   font-size: 1.7em;
   text-align: center;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width:40%;
 }
 
 .service-box img {
   width: 125px;
 }
 
+#team {
+  padding:75px 0;
+  margin: 0 auto;
+}
+
 #team .section-text {
   font-size: 1.9em;
   font-weight: 700;
   text-align: center;
+  width: 60%;
+  margin: 0 auto;
 }
 
 #team .member-name {
@@ -123,19 +166,39 @@ h5 {
   font-weight: 700;
 }
 
+#team hr {
+  margin: 20px auto 30px auto;
+  width: 40%;
+}
+
 #team img {
   width: 250px;
   height: 180px;
 }
 
+.schedule-table {
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;
+}
+
+.schedule-table th,
+td {
+  border-bottom: solid 1px black;
+  padding: 5px 10px;
+  text-align: center;
+}
+
 .footer {
   font-size: 1.9em;
   text-align: center;
+  padding: 40px 100px;
+  margin-bottom: 25px;
 }
 
 .address {
   font-style: normal;
   font-size: 0.8em;
+  margin-bottom: 30px;
 }
 
 .footer a {
@@ -145,4 +208,6 @@ h5 {
 
 .footer ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
